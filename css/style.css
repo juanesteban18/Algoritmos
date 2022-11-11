@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+body{
+   
+   background:url("../img/fondoN.jpg");
+   background-size: cover;
+   text-align: center;
+   font-family: 'Silkscreen', cursive;
+
+} 
+
+h1{
+    color: #EA7AF4;
+    font-family: 'Silkscreen', cursive;
+     text-align: center;
+     font-size: 50px;
+}
+
+button{
+    padding: 15px 40px;
+    font-size: 22px;
+    background: transparent;
+    border: 3px solid rgb(190, 50, 245);
+    color:rgb(#210B2C);
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Silkscreen', cursive;
+    
+}
+button:hover {
+    border: 3px solid #910091;
+    color: rgb(10, 10, 10);
+    border-radius: 30px;
+    background: #F7D4BC;
+}
